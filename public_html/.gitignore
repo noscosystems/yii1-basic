@@ -1,0 +1,6 @@
+*
+!.htaccess
+!/index.php
+!/index-test.php
+!/.gitignore
+!/assets/.gitignore

@@ -1,0 +1,57 @@
+{
+    "name":                                 "noscosystems/project",
+    "description":                          "Project Description",
+    "keywords":                             ["yii"],
+    "type":                                 "project",
+    "homepage":                             "https://github.com/noscosystems/project",
+    "license":                              "proprietary",
+    "version":                              "0.1",
+
+    "authors": [
+        {
+            "name":                         "Zander Baldwin",
+            "email":                        "mynameiszanders@gmail.com",
+            "homepage":                     "http://mynameis.zande.rs/",
+            "role":                         "Developer"
+        },
+        {
+            "name":                         "Luke Scowen",
+            "email":                        "lmscowen@gmail.com",
+            "homepage":                     "https://github.com/scowen",
+            "role":                         "Developer"
+        },
+        {
+            "name":                         "Clive Dann",
+            "email":                        "clive.dann@gmail.com",
+            "homepage":                     "http://clivedann.co.uk/",
+            "role":                         "Project Manager"
+        },
+    ],
+
+    "minimum-stability":                    "dev",
+    "prefer-stable":                        true,
+
+    "config": {
+        "vendor-dir":                       "application/vendor",
+        "preferred-install":                "dist"
+    },
+
+    "autoload": {
+        "psr-0": {
+            "application":                  ""
+        }
+    },
+
+    "require": {
+        "yiisoft/yii":                      "1.1.15",
+        "twbs/bootstrap":                   "~3",
+        "psr/log":                          "*",
+        "psr/http-message":                 "*",
+
+        "php":                              ">=5.4"
+    },
+    "require-dev": {
+        "fzaninotto/faker":                 "~1",
+        "phpunit/phpunit":                  "~4"
+    }
+}
