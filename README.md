@@ -33,6 +33,6 @@ Please see the [separate license file](LICENSE.md) included in this repository.
 Authors
 -------
 
-- [Zander Baldwin](http://mynameis.zande.rs); lead technical developer, data & application.
-- [Luke Scowen](https://github.com/scowen); lead front-end developer, design & interation.
+- [Zander Baldwin](http://github.com/mynameiszanders); lead technical developer, data & application.
+- [Luke Scowen](https://github.com/scowen); lead front-end developer, design & interaction.
 - [Clive Dann](https://github.com/clivedann); project manager.
